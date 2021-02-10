@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -13,9 +14,9 @@
     </head>
     <body>
       <div class="jumbotron">
-        <img src="img/1.jpg" alt="">
+        <!-- <img src="img/1.jpg" alt=""> -->
         <nav>
-          <a href="#">HOME</a>
-          <a href="#">CONTACTS</a>
+          <a href="/">HOME</a>
+          <a href="/contacts">CONTACTS</a>
         </nav>
       </div>
