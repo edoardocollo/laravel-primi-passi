@@ -1,0 +1,16 @@
+footer {
+  background-color: #ececec;
+  height: 200px;
+  nav{
+    a{
+      margin: 20px;
+    };
+  };
+  ul {
+    list-style: none;
+    width: 20%;
+  };
+  ul:first-child {
+    margin-left: 100px;
+  };
+}

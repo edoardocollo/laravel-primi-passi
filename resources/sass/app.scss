@@ -1,12 +1,7 @@
 //
-.jumbotron {
-  position: relative;
-  width: 100%;
-  height: 500px;
-  overflow: hidden;
-  img{
-    width: 100%;
-    position: absolute;
-    top: -100px;
-  }
-}
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "resources/sass/partials/_common.scss";
+@import "resources/sass/partials/_jumbotron.scss";
+@import "resources/sass/partials/_header_nav.scss";
+@import "resources/sass/partials/_main.scss";
+@import "resources/sass/partials/_footer.scss";

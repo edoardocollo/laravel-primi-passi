@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -14,9 +15,9 @@
     </head>
     <body>
       <div class="jumbotron">
-        <!-- <img src="img/1.jpg" alt=""> -->
-        <nav>
+        <img src="img/1.jpg" alt="">
+      </div>
+      <nav class="header_nav d-flex justify-content-center">
           <a href="/">HOME</a>
           <a href="/contacts">CONTACTS</a>
-        </nav>
-      </div>
+      </nav>
