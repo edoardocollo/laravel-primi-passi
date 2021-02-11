@@ -1,5 +1,6 @@
-@include('partials._header')
+@extends('partials._app')
 
+@section('content')
 <div class="main_content_wrap d-flex flex-column align-items-center">
   <h1>CONTACTS</h1>
   <p>
@@ -8,4 +9,5 @@
   </p>
 
 </div>
-@include('partials._footer')
+
+@endsection
